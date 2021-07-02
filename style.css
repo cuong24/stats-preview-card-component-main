@@ -89,7 +89,7 @@ body{
   }
 }
 
-@media screen and (min-width: 600px){u
+@media screen and (min-width: 600px){
   .card{
     width: 80em;
     display: flex;

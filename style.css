@@ -11,14 +11,7 @@ body{
   position: relative;
 }
 
-.desktop-image::after{
-  content: '';
-  inset: 0;
-  background: #9c01e4;
-  mix-blend-mode: multiply;
-  position: absolute;
-  opacity: 0.6;
-}
+
 
 .card{
   margin: auto;
@@ -52,7 +45,7 @@ body{
   color: white;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
   .card{
     width: 20rem;
     border-radius: 0.2em;
@@ -87,6 +80,19 @@ body{
 
   .number{
     font-size: 1.8em;
+  }
+
+  .mobile-image{
+    position: relative;
+  }
+
+  .mobile-image::after{
+    content: '';
+    inset: 0;
+    background: #9c01e4;
+    mix-blend-mode: multiply;
+    position: absolute;
+    opacity: 0.6;
   }
 }
 
@@ -134,5 +140,14 @@ body{
 
   .number{
     font-size: 1.8em;
+  }
+
+  .desktop-image::after{
+    content: '';
+    inset: 0;
+    background: #9c01e4;
+    mix-blend-mode: multiply;
+    position: absolute;
+    opacity: 0.6;
   }
 }

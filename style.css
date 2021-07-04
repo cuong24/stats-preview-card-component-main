@@ -15,6 +15,7 @@ body{
   content: '';
   inset: 0;
   background: #9c01e4;
+  mix-blend-mode: multiply;
   position: absolute;
   opacity: 0.6;
 }
